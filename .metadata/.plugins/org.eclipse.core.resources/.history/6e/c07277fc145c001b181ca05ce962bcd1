@@ -1,0 +1,14 @@
+package ms.leetcode.challenge;
+
+public class TwoNumbersSum {
+
+	public static void main(String[] args) {
+		
+		int numbers[] = new int[] {2,4,6,3,8};
+		int target = 7;
+		
+		getTwoSum(numbers, target);
+
+	}
+
+}

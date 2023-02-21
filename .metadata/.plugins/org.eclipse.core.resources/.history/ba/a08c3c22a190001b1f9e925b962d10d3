@@ -1,0 +1,21 @@
+package ms.oops.nice;
+
+
+public class ClassA10 extends Exception {
+
+	public static void main(String[] args) {
+		int x = 5, y = 0;
+		try {
+			y = y/ x;
+			try {
+				
+			}
+		} catch (Exception e) {
+			System.out.println("Error");
+		} finally {
+			System.out.println("finally");
+		}
+
+	}
+
+}

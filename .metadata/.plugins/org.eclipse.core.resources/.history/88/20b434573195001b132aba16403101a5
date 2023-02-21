@@ -1,0 +1,13 @@
+package ms.phoneAdapter;
+
+public class MobilePhone {
+
+	public void charge(String str) {
+		System.out.println("Mobile Phone is charging");
+	}
+
+	public void mobilePhoneIsUnplugged(String str) {
+		System.out.println("Mobile Phone is not charging");
+	}
+
+}

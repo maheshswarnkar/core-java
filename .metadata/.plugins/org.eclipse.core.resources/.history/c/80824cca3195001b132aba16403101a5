@@ -1,0 +1,17 @@
+package ms.phoneAdapter;
+
+public class SwitchBoard {
+	
+	IDevice device;
+	
+	
+
+	public void switchOn() {
+
+	}
+
+	public void switchOff() {
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package ms.leetcode.challenge;
+
+public class ReverseInteger {
+	
+	public static void main(String[] args) {
+		int input = 1587942631;
+		long reversed = 0;
+		while (input !=0) {
+			
+		}
+	}
+
+}

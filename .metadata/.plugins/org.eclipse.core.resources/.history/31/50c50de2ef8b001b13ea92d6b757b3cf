@@ -1,0 +1,39 @@
+package ms.lambda.ex;
+
+public class Test implements Runnable {
+	
+	public static void test() {
+		try {
+//		badMethod();
+		System.out.println("A");
+		}catch (Exception e) {
+			System.out.println("B");
+		}finally {
+			System.out.println("C");
+		}
+		System.out.println("D");
+	}
+	
+	public static void badMethod() {
+		throw new Error();
+	}
+	
+	
+	
+	public static void main(String[] args)  {
+		new Thread(new Test("Wallace")).start();
+		
+	}
+	private String name;
+	public Test(String name) {
+		this.name = name;
+	}
+	public void run() {
+		message(1); message(2);
+	}
+
+	private synchronized void message(int n) {
+		System.out.println(name +" - "+n +"");
+	}
+
+}

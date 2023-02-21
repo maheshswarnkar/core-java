@@ -1,0 +1,22 @@
+package ms.oops.nice;
+
+
+interface MyAnnotation {
+	
+	@Deprecated
+	public void anno();
+	public void met1();
+}
+
+
+public class AnnotationExample9 implements MyAnnotation {
+
+	@Override
+	public void anno() {
+	}
+
+	@Override
+	public void met1() {
+	}
+
+}

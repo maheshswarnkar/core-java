@@ -1,0 +1,37 @@
+package ms.executor.mutithreading;
+
+public class SimpleExecutorMultithreading {
+
+	public static void main(String[] args) {
+		System.out.println("Main program starts...");
+		FirstSimpleExecutorMultithreading firstSimpleExecutorMultithreading = new FirstSimpleExecutorMultithreading();
+		
+		
+
+		System.out.println("Main program exits...");
+
+	}
+
+}
+
+class FirstSimpleExecutorMultithreading implements Runnable {
+	
+	private int number;
+	
+	public FirstSimpleExecutorMultithreading(int number) {
+		this.number = number;
+	}
+
+	public void run() {
+		
+
+	}
+}
+
+class SecondSimpleExecutorMultithreading implements Runnable {
+
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,15 @@
+package ms.adapter;
+
+public class PenAdapter implements Pen {
+
+	PilotPen pilotPen;
+
+	@Override
+	public void write(String line) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

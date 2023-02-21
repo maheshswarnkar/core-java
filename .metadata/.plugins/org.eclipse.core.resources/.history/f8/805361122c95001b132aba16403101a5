@@ -1,0 +1,7 @@
+package ms.adapter.socket;
+
+public interface Switches {
+
+	public void write(String line);
+
+}

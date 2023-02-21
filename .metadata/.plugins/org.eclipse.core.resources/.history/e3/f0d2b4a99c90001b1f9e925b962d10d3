@@ -1,0 +1,19 @@
+package ms.oops.nice;
+
+
+class Demo<T>{
+	T obj;
+	
+	public Demo(T obj) {
+		this.obj = obj;
+	}
+}
+
+public class DemoGenerics3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

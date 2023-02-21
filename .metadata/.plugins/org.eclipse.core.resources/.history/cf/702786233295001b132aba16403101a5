@@ -1,0 +1,9 @@
+package ms.phoneAdapter;
+
+public class MainSwitchBoardApplication {
+	public static void main(String[] args) {
+		SwitchBoard switchBoard = new SwitchBoard();
+		
+	}
+
+}

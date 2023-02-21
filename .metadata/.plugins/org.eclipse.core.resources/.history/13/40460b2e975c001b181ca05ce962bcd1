@@ -1,0 +1,21 @@
+package ms.leetcode.challenge;
+
+import java.util.Stack;
+
+public class StackEx {
+
+	public static void main(String[] args) {
+		// 
+		Stack<Integer> st =  new Stack<Integer>();
+		st.add(10);
+		st.add(13);
+		st.add(85);
+		st.add(4);
+		st.add(1);
+		
+		System.out.println("Stack values "+st);
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package ms.leetcode.challenge;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoNumbersSum {
+
+	public static void main(String[] args) {
+		
+		int numbers[] = new int[] {2,4,6,3,8};
+		int target = 7;
+		
+		getTwoSum(numbers, target);
+
+	}
+
+	private static void getTwoSum(int[] numbers, int target) {
+		Map<Integer, Integer> visitedNumbers = new HashMap<Integer, Integer>();
+		for(int i=0; i< numbers.length; i++) {
+			int delta = target - numbers[i];
+			if(visitedNumbers.containsKey(delta)) {
+				return (new int[] {i, visitedNumbers.get(delta)});
+			}
+		}
+		
+	}
+
+}

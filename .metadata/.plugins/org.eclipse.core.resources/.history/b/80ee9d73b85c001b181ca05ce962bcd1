@@ -1,0 +1,18 @@
+package ms.leetcode.challenge;
+
+public class PalindroneEx {
+
+	public static void main(String[] args) {
+		String str = "abcdedcba";
+		
+
+	}
+	
+	public static void palindromeString(String str) {
+		if(str.length()<2) {
+			return;
+		}
+		
+	}
+
+}

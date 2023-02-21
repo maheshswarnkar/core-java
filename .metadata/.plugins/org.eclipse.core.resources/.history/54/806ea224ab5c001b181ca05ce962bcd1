@@ -1,0 +1,23 @@
+package ms.leetcode.challenge;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RomanToInt {
+
+	public static void main(String[] args) {
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+		map.put('I', 1);
+				
+
+	}
+
+}

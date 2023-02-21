@@ -1,0 +1,15 @@
+package ms.oops.nice;
+
+
+public interface Car{
+	double getPetrol();
+}
+
+public class CarPool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

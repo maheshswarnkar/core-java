@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\swarnkar\STS-workspace\corejava\.metadata\.plugins\org.eclipse.jdt.core
+745025557.index
+2421890907.index
+4291867175.index
+89686527.index
+513415453.index
+2407610023.index
+4215300812.index

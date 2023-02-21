@@ -1,0 +1,22 @@
+package ms.lambda.ex;
+
+public class Test {
+	
+	public static int test() {
+		int i = 20;
+		int j = 0;
+		try {
+			return i/j;
+		}catch(Exception e) {
+			System.out.println("In catch ");
+			return 2 ;
+		}finally {
+			return 3;
+		}
+	}
+	public static void main(String[] args) {
+		int k = test();
+		System.out.println("Value of k "+k);
+	}
+
+}

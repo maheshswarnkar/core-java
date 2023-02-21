@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="com.statics.StaticTest1"/>
+    <fullyQualifiedTypeName name="ms.oops.OverrideExTestA"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="ms.collections.ex.EmployeeHashMap"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.Teacher"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.Test2"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.Demo"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.Example6"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.MyAnnotation"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="ms.oops.nice.ClassA10"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+</qualifiedTypeNameHistroy>

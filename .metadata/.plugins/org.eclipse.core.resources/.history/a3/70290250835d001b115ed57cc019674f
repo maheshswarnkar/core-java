@@ -1,0 +1,16 @@
+package ms.executor.mutithreading;
+
+public class SimpleExecutorMultithreading {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+class FirstSimpleExecutorMultithreading {
+
+
+}

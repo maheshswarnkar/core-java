@@ -1,0 +1,18 @@
+package ms.adapter.socket;
+
+public class SwitchBoard {
+	private Switches switch;
+
+	public Switches getSwitch() {
+		return switch;
+	}
+
+	public void setSwitch(Switches switch) {
+		this.switch = switch;
+	}
+
+	public void writeAssignment(String str) {
+		switch.switchOn(str);
+	}
+
+}

@@ -1,0 +1,11 @@
+package ms.oops.nice;
+
+
+public class ClassA10 extends Exception {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

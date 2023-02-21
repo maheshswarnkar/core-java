@@ -1,0 +1,20 @@
+package ms.phoneAdapter;
+
+public class MobilePhoneAdapter implements IDevice {
+	
+	MobilePhone mobilePhone = new MobilePhone();
+
+	@Override
+	public void start(String str) {
+		mobilePhone.unplug();		
+	}
+
+	@Override
+	public void stop(String str) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

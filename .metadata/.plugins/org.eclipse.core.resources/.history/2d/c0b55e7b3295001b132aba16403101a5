@@ -1,0 +1,16 @@
+package ms.phoneAdapter;
+
+public class MainSwitchBoardApplication {
+	
+	public static void main(String[] args) {
+
+		ISocket device = new MobilePhoneAdapter();
+
+		SwitchBoard switchBoard = new SwitchBoard();
+		switchBoard.setDevice(device);
+
+		switchBoard.switchOn();
+		switchBoard.switchOff();
+	}
+
+}

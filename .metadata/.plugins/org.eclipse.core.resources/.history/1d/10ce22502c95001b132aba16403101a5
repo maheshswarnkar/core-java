@@ -1,0 +1,12 @@
+package ms.adapter.socket;
+
+public class School {
+
+	public static void main(String[] args) {
+		SwitchBoard assignmentWork = new SwitchBoard();
+		Switches pen = new Socket();
+		assignmentWork.setP(pen);
+		assignmentWork.writeAssignment("Switch On");
+	}
+
+}

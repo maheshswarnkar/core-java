@@ -1,0 +1,10 @@
+package ms.adapter.socket;
+
+public class SwitchBoard {
+	private Switches switch;
+
+	
+
+	
+
+}

@@ -1,0 +1,7 @@
+package ms.adapter;
+
+public class AssignmentWork {
+	private Pen p;
+	
+
+}

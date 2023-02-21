@@ -1,0 +1,52 @@
+package ms.leetcode.challenge;
+
+public class PalindroneEx {
+
+	public static void main(String[] args) {
+		String str = "abcdedcba";
+		palindromeString(str);
+
+	}
+
+	public static void palindromeString(String str) {
+		String palindromString = "";
+		if (str.length() < 2) {
+			return;
+		}
+		char charArray[] = str.toCharArray();
+		int findCenterPosition = 0;
+		int lengthOfString = str.length();
+		System.out.println("Length of string " + lengthOfString);
+		int centerPoint = lengthOfString / 2;
+		boolean numberIsOdd = false;
+		if (lengthOfString % 2 == 1) {
+			System.out.println("It is odd number");
+			centerPoint = centerPoint + 1;
+			numberIsOdd = true;
+		}
+		System.out.println("CenterPoint " + centerPoint);
+
+		int towardsStart = 0;
+		int towardsEnd = 0;
+		boolean firstTime = true;
+
+		for (int i = 1; i < centerPoint; i++) {
+			if (numberIsOdd && (charArray[centerPoint - i] == charArray[centerPoint + i])) {
+				palindromString = palindromString + charArray[centerPoint + i];
+			} else if (!numberIsOdd)
+				if(firstTime)
+					if(charArray[centerPoint - i + 1] == charArray[centerPoint + i+1]) {
+					}
+
+			} else {
+				System.out.println("String is not palindrome");
+				return;
+			}
+			towardsStart--;
+			towardsEnd++;
+
+		}
+
+}
+
+}

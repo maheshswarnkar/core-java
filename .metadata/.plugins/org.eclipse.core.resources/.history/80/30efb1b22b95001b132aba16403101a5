@@ -1,0 +1,12 @@
+package ms.adapter.socket;
+
+public class PenAdapter implements Pen {
+
+	Fan pilotPen = new Fan();
+
+	@Override
+	public void write(String line) {
+		pilotPen.mark(line);
+	}
+
+}

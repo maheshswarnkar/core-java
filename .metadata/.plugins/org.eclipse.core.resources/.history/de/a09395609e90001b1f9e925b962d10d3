@@ -1,0 +1,12 @@
+package ms.oops.nice;
+
+class X{
+	public void c1() {
+		System.out.println("x1");
+	}
+}
+
+
+public class Example7 {
+	
+}

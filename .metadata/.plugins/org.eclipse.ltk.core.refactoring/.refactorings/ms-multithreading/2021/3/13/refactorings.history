@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ms.simple.mutithreading&apos; to &apos;ms.run.mutithreading&apos;&#x0D;&#x0A;- Original project: &apos;ms-multithreading&apos;&#x0D;&#x0A;- Original element: &apos;ms-multithreading/src/main/java/ms.simple.mutithreading&apos;&#x0D;&#x0A;- Renamed element: &apos;ms-multithreading/src/main/java/ms.run.mutithreading&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ms.simple.mutithreading&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ms.simple.mutithreading" name="ms.run.mutithreading" qualified="false" references="true" stamp="1616745433837" textual="false" version="1.0"/>
+</session>

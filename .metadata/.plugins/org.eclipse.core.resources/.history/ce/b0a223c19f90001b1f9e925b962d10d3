@@ -1,0 +1,27 @@
+package ms.oops.nice;
+
+import java.util.List;
+
+interface Car{
+	double getPetrol();
+}
+
+public class CarPool  {
+	private List<Car> myCars ;
+	public double getTotalPetrol() {
+		double sum = 0.0;
+		for(Car car : myCars) {
+			sum = sum + Car.
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	@Override
+	public double getPetrol() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

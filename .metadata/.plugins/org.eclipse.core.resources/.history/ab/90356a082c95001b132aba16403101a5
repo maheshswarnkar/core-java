@@ -1,0 +1,18 @@
+package ms.adapter.socket;
+
+public class AssignmentWork {
+	private Switches p;
+
+	public Switches getP() {
+		return p;
+	}
+
+	public void setP(Switches p) {
+		this.p = p;
+	}
+
+	public void writeAssignment(String str) {
+		p.write(str);
+	}
+
+}

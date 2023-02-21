@@ -1,0 +1,19 @@
+package ms.collections.ex;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionsEx {
+	
+	public static void main(String[] args) {
+		Collection<Integer> collectionOfInt = new ArrayList<>();
+		collectionOfInt.toArray();
+		
+		
+		Collection<String> collectionOfString = new ArrayList<>();
+		String[] array = collectionOfString.toArray();
+		
+		
+	}
+
+}

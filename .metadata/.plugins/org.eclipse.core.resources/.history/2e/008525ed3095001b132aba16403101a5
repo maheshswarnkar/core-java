@@ -1,0 +1,12 @@
+package ms.mobhilePhoneAdapter;
+
+public class MobilePhone {
+	
+	public void mobilePhoneCharges(String str) {
+		System.out.println("Mobile Phone is charging");
+	}
+	public void mobilePhoneDisCharges(String str) {
+		System.out.println("Mobile Phone is charging");
+	}
+
+}

@@ -1,0 +1,21 @@
+package ms.lambda.ex;
+
+public class LambdaEx {
+	
+	interface MathOperation {
+		int operation(int a, int b);
+	}
+
+	public static int add(int a, int b) {
+		return (a + b);
+	}
+	
+
+
+	public static void main(String[] args) {
+		System.out.println("Addition of two numbers (1 and 4) "+add(1,4));
+		MathOperation subtract = (a,b)->(a-b);
+		System.out.println("Subtractin of two numbers "+subtract);
+	}
+
+}

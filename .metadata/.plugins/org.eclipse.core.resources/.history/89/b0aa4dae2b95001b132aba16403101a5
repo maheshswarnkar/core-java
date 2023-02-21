@@ -1,0 +1,8 @@
+package ms.adapter.socket;
+
+public class Fan {
+	
+	public void mark(String mark) {
+		System.out.println("Fan is running..");
+	}
+}

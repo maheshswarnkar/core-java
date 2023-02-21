@@ -1,0 +1,11 @@
+package ms.adapter;
+
+public class PenAdapter implements Pen {
+
+	@Override
+	public void write(String line) {
+		System.out.println("Writting from PenAdapter");
+		
+	}
+
+}

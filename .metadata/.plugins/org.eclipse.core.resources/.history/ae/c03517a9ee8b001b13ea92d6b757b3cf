@@ -1,0 +1,37 @@
+package ms.lambda.ex;
+
+public class Test {
+	
+	public static void test() {
+		try {
+//		badMethod();
+		System.out.println("A");
+		}catch (Exception e) {
+			System.out.println("B");
+		}finally {
+			System.out.println("C");
+		}
+		System.out.println("D");
+	}
+	
+	public static void badMethod() {
+		throw new Error();
+	}
+	
+	
+	
+	public static void main(String[] args) {
+//		 test();
+		 synchronized (args) {
+			System.out.println(2);
+			try{
+				args.wait();
+			}catch(InterruptedException e) {
+				
+			}
+			System.out.println(3);
+		}
+		 
+	}
+
+}
