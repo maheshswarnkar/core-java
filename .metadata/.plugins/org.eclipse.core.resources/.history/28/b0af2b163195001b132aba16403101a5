@@ -1,6 +1,0 @@
-package ms.mobhilePhoneAdapter;
-
-public interface IDevice {
-
-	
-}

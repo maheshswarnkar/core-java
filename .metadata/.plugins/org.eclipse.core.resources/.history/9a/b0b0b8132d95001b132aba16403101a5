@@ -1,8 +1,0 @@
-package ms.adapter.socket;
-
-public class Iron {
-	
-	public void run(String mark) {
-		System.out.println("Iron is getting heated..");
-	}
-}

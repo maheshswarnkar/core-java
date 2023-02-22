@@ -1,6 +1,0 @@
-package ms.adapter;
-
-public class PenAdapter implements Pen {
-
-	
-}

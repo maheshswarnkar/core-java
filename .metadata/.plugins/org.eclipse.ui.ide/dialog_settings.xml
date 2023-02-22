@@ -5,8 +5,8 @@
 		<item value="org.eclipse.buildship:3.1.4.v20200326-1743"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.9.0.202009080501-r"/>
 		<item value="org.eclipse.egit:5.9.0.202009080501-r"/>
-		<item value="org.eclipse.emf.common:2.20.0.v20200822-0801"/>
-		<item value="org.eclipse.emf.ecore:2.23.0.v20200630-0516"/>
+		<item value="org.eclipse.emf.common:2.27.0.v20220817-1401"/>
+		<item value="org.eclipse.emf.ecore:2.29.0.v20220817-1401"/>
 		<item value="org.eclipse.epp.mpc:1.8.4.v20200709-0857"/>
 		<item value="org.eclipse.help:2.3.300.v20200902-1800"/>
 		<item value="org.eclipse.jdt:3.18.500.v20200902-1800"/>
@@ -39,7 +39,6 @@
 		<item value="org.eclipse.wst.xml_ui.feature:3.19.0.v202008192217"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.1.0.201406251020"/>
 		<item value="org.jboss.tools.maven.apt.feature:1.5.2.201812241535"/>
-		<item value="org.jd.ide.eclipse.feature:2.0.0"/>
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.egit.feature:0.15.1.201806191431"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
@@ -59,5 +58,11 @@
 			<item key="DIALOG_Y_ORIGIN" value="191"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 	</section>
 </section>

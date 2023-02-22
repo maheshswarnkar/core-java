@@ -1,8 +1,0 @@
-package ms.phoneAdapter;
-
-public interface IDevice {
-
-	public void start(String str);
-
-	public void stop(String str);
-}

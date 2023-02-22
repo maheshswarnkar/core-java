@@ -1,8 +1,0 @@
-package ms.phoneAdapter;
-
-public interface IDevice {
-
-	public void switchOn(String str);
-
-	public void stop(String str);
-}

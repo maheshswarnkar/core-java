@@ -1,8 +1,0 @@
-package ms.mobhilePhoneAdapter;
-
-public interface IDevice {
-
-	public void start(String str);
-
-	public void stop(String str);
-}
